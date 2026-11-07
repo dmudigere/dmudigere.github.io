@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dheevatsa Mudigere</title>
+<meta name="description" content="Senior Distinguished Engineer at NVIDIA. Co-designing AI models and the systems that run them.">
+<meta property="og:title" content="Dheevatsa Mudigere">
+<meta property="og:description" content="Senior Distinguished Engineer, NVIDIA. Publications, talks and writing on co-designing large-scale AI systems.">
+<meta property="og:image" content="photo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<script>(function(){var m;try{m=localStorage.getItem("mode")}catch(e){}document.documentElement.dataset.mode=m||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")})();</script>
+<style>
+:root{--page:#f6f6f3;--paper:#fff;--card:#fff;--ink:#17191b;--ink2:#51565b;--ink3:#8d9298;--rule:#e6e5e0;--accent:#4d7c0f;--soft:#eef4e3;--new:#2f6fdb;--newbg:#e8f0fd;--fix:#a8600a;--fixbg:#fbf0e0;
+--band:#24343b;--band2:#2c3e46;--bink:#f1f3f3;--bink2:#b8c3c6;--bink3:#7f8d91;--brule:#3a4c53;--bacc:#a3d65c;
+--sans:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;--display:var(--sans);--dw:300;--dls:-.02em}
+[data-mode=dark]{--page:#111315;--paper:#16191b;--card:#1a1e21;--ink:#e9eaeb;--ink2:#a9aeb3;--ink3:#6f757b;--rule:#272b2f;--new:#86b4ff;--newbg:#17233a;--fix:#e7a54a;--fixbg:#2e2210}
+*{box-sizing:border-box}
+body{letter-spacing:var(--bls,normal);margin:0;background:var(--page);color:var(--ink);font:15px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.in{max-width:1080px;margin:0 auto;padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}
+.top{position:sticky;top:0;z-index:4;background:var(--paper);border-bottom:1px solid var(--rule)}
+.top .in{display:flex;align-items:center;justify-content:space-between;height:48px}
+.crumb{font-size:13px;color:var(--ink3)}.crumb b{color:var(--ink);font-weight:500;margin-right:8px}.crumb i{font-style:normal;margin-right:8px;color:var(--rule)}
+.tools{display:flex;gap:8px}
+.btn{font:12px var(--sans);border:1px solid var(--rule);background:var(--paper);color:var(--ink2);border-radius:6px;padding:5px 10px;cursor:pointer}
+.btn:hover{border-color:var(--ink3);color:var(--ink)}
+header.hd{background:var(--paper)}
+header.hd .in{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;padding-top:44px;padding-bottom:40px}
+.tag{font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+h1{font-family:var(--display);font-weight:var(--dw);text-wrap:balance;font-size:clamp(30px,5.2vw,54px);white-space:nowrap;line-height:1.02;letter-spacing:var(--dls);margin:0}
+.bio{margin:16px 0 0;color:var(--ink2);font-size:15.5px;max-width:56ch}
+.right{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:300px}
+.chip{font:11.5px/1 var(--mono);border:1px solid var(--rule);border-radius:5px;padding:6px 8px;color:var(--ink2);background:var(--paper)}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.band{background:var(--band);color:var(--bink);transition:background .3s}
+.band .in{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;padding-top:36px;padding-bottom:36px;align-items:stretch}
+.role{border-left:2px solid var(--bacc);padding-left:14px;margin-bottom:28px}
+.role p{margin:0}.role .r1{font-size:19px;font-weight:500}.role .r2{color:var(--bink2);font-size:13.5px}
+.lab{font:600 10.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--bink3);margin:22px 0 10px}
+.band ul{list-style:none;margin:0;padding:0}.band li{font-size:13.5px;color:var(--bink2);margin:0 0 7px}.band li b{color:var(--bink);font-weight:600}
+.contact{font:12.5px var(--mono);color:var(--bink2);margin-top:12px}.contact b{color:var(--bink);font-weight:500}
+.pv{display:flex;flex-direction:column;gap:10px}
+.photo{flex:1;min-height:280px;border-radius:6px;border:1px solid var(--brule);position:relative;overflow:hidden;background:linear-gradient(180deg,#d4dad8 0%,#a9b4b1 38%,#62716c 62%,#2b3833 82%,#1c2622 100%)}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.photo span{position:absolute;left:12px;bottom:10px;font:11px var(--mono);color:rgba(255,255,255,.75)}
+main .in{padding-top:40px;padding-bottom:20px}
+.lp{background:var(--card);border:1px solid var(--rule);border-radius:12px}
+.lph{display:flex;align-items:center;gap:12px;padding:8px 16px;border-bottom:1px solid var(--rule);flex-wrap:wrap}
+.lph .t{font:600 11.5px var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.lph .u{font:11.5px var(--mono);color:var(--ink3)}
+.lph .sp{flex:1}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:7px;padding:2px;background:var(--page)}
+.seg button{font:12px var(--sans);border:0;background:none;color:var(--ink2);padding:4px 10px;border-radius:5px;cursor:pointer}
+.seg button.on{background:var(--card);color:var(--ink);box-shadow:0 0 0 1px var(--rule)}
+.lw{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:16px;align-items:stretch}
+.lw.one{grid-template-columns:1fr}
+.lp{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:62px minmax(0,1fr) 14px;gap:10px;align-items:baseline;padding:8px 16px;border-top:1px solid var(--rule)}
+.row:first-child{border-top:0}
+.row:hover{background:color-mix(in srgb,var(--accent) 5%,transparent)}.row:hover .ra{color:var(--accent)}
+.rd{font:11.5px var(--mono);color:var(--ink3)}
+.rt{font-weight:600;font-size:13.5px;line-height:1.4;color:var(--ink)}
+.rx{display:block;font-size:12.5px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ra{color:var(--ink3);font-size:12px}
+.lpf{margin-top:auto;display:flex;justify-content:space-between;padding:7px 16px;border-top:1px solid var(--rule);font:11.5px var(--mono);color:var(--ink3)}.lpf a{color:var(--ink2)}.lpf a:hover{color:var(--accent)}
+.cit{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:10px 14px;display:flex;flex-direction:column}
+.chd{display:flex;justify-content:space-between;font:600 11.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}.chd a{font-weight:400;letter-spacing:0;text-transform:none;color:var(--ink3)}.chd a:hover{color:var(--accent)}
+.cb{flex:1;min-height:64px;display:flex;align-items:flex-end;gap:5px;margin-top:10px;position:relative}
+.cb i{flex:1;background:color-mix(in srgb,var(--ink3) 45%,transparent);border-radius:2px 2px 0 0;position:relative}
+.cb i:hover{background:var(--accent)}
+.cb i.ytd{background:none;border:1px dashed var(--accent);border-bottom:0}
+.cb i:hover:after{content:attr(data-v);position:absolute;bottom:100%;left:50%;transform:translate(-50%,-4px);font:11px var(--mono);color:var(--ink);white-space:nowrap}
+.cax{display:flex;gap:5px;text-align:center}.cax span{flex:1}.cax{font:10.5px var(--mono);color:var(--ink3);border-top:1px solid var(--rule);padding-top:4px;margin-top:0}
+.cs{margin:6px 0 0;font:11.5px var(--mono);color:var(--ink3)}
+.ph{display:flex;align-items:center;gap:12px;margin:48px 0 8px;flex-wrap:wrap}
+.ph h2{font-size:17px;font-weight:600;margin:0}
+.cnt{font:11px var(--mono);border:1px solid var(--rule);border-radius:10px;padding:2px 8px;color:var(--ink2)}
+.q{font:13px var(--sans);border:1px solid var(--rule);border-radius:7px;padding:6px 10px;width:220px;background:var(--card);color:var(--ink)}
+.yr{display:grid;grid-template-columns:80px 1fr;border-top:1px solid var(--rule);padding:20px 0 4px}
+.yl{font:600 13px var(--mono);color:var(--ink3);position:sticky;top:60px;align-self:start}
+.yr ul{list-style:none;margin:0;padding:0 0 0 18px;border-left:1px solid var(--rule)}
+.yr li{margin:0 0 18px}
+.ti{font-weight:600;font-size:15px;line-height:1.4}
+.bd{display:inline-block;font:600 10.5px/1 var(--sans);border-radius:4px;padding:3px 6px;margin-left:6px;vertical-align:2px;background:var(--soft);color:var(--accent)}
+.au{font-size:13.5px;color:var(--ink2);margin-top:2px}
+.au u{text-decoration:none;color:var(--ink);font-weight:500;border-bottom:2px solid var(--accent)}
+.ve{font:12px var(--mono);color:var(--ink3);margin-top:4px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.ve a{color:var(--ink2);border:1px solid var(--rule);border-radius:4px;padding:1px 6px;background:var(--card)}
+.ve a:hover{border-color:var(--accent);color:var(--accent)}
+footer{display:flex;justify-content:space-between;font:11.5px var(--mono);color:var(--ink3);padding:28px 0 48px}
+.off{--ink:var(--bink);--ink2:var(--bink2);--ink3:var(--bink3);--rule:var(--brule);--card:rgba(255,255,255,.05);--accent:var(--bacc);margin-top:48px;background:var(--band);color:var(--ink);border-radius:12px;padding:18px 22px;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,2fr);gap:24px;align-items:center}
+.off h2{font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 8px}
+.off .lead{margin:0;font-family:var(--display);font-weight:300;font-size:18px;line-height:1.35;letter-spacing:-.01em;text-wrap:balance}
+.offl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.offl a{display:block;padding:7px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--card);color:var(--ink)}
+.offl a:hover{border-color:var(--accent)}.offl b{font-weight:600;font-size:14px}.offl span{display:block;font-size:12px;line-height:1.4;color:var(--ink2);margin-top:2px}
+.offl .gone b{text-decoration:line-through;text-decoration-color:var(--ink3);color:var(--ink2)}
+.offl em{font:600 9.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;font-style:normal;color:var(--ink3);border:1px solid var(--rule);border-radius:4px;padding:2px 5px;margin-left:8px;vertical-align:2px}
+.quip{grid-column:1/-1;margin:0;font-size:12.5px;font-style:italic;color:var(--ink3)}
+button.yl{all:unset;box-sizing:border-box;cursor:pointer;display:flex;gap:6px;align-items:baseline;font:600 13px/1.6 var(--mono);color:var(--ink3);position:sticky;top:60px;align-self:start}
+button.yl:hover,button.yl:focus-visible{color:var(--accent)}button.yl:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+.car{display:inline-block;width:10px}.yn{font-weight:400;font-size:10.5px;border:1px solid var(--rule);border-radius:8px;padding:0 6px}
+.yr.shut{padding:12px 0}.yc{margin:0;padding-left:18px;border-left:1px solid var(--rule);font-size:13px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:860px){.offl{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.off{grid-template-columns:1fr;padding:16px 18px;gap:14px}.offl{grid-template-columns:1fr}.yc{border-left:0;padding-left:0}}
+@media (max-width:860px){.photo{flex:none;aspect-ratio:4/3;min-height:0;max-width:100%}.lw{grid-template-columns:1fr}.cb{min-height:90px}.row{grid-template-columns:56px minmax(0,1fr) 14px}.band .in{grid-template-columns:1fr;gap:28px}}
+@media (max-width:640px){.in{padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}header.hd .in{grid-template-columns:1fr}.right{align-items:flex-start}.chips{justify-content:flex-start}.yr{grid-template-columns:1fr}.yl{position:static;margin-bottom:8px}.yr ul{border-left:0;padding-left:0}.q{width:100%}}
+
+</style>
+</head>
+<body>
+<div class="top"><div class="in">
+<div class="crumb"><b>dheevatsa</b><i>/</i>Dheevatsa Mudigere</div>
+<div class="tools"><button class="btn" id="aub" type="button">Authors: Concise</button><button class="btn" id="mdb" type="button" aria-label="Toggle dark mode">◐</button></div>
+</div></div>
+
+<header class="hd"><div class="in">
+<div>
+<p class="tag">Accelerated compute and AI systems</p>
+<h1>Dheevatsa Mudigere</h1>
+<p class="bio">Co-designing AI models and the systems that run them: shaping hardware around where workloads are heading, and helping shape the workloads to make the most of the hardware and systems.</p>
+</div>
+<div class="right">
+<div class="chips"><a class="chip" href="https://scholar.google.com/citations?user=p2R-FRoAAAAJ">Scholar ↗</a><a class="chip" href="https://www.linkedin.com/in/dheevatsa/">LinkedIn ↗</a><a class="chip" href="https://github.com/dmudiger">GitHub ↗</a><a class="chip" href="https://developer.nvidia.com/blog/author/dmudigere/">NVIDIA Blog ↗</a></div>
+</div>
+</div></header>
+
+<section class="band"><div class="in">
+<div>
+<div class="role"><p class="r1">Senior Distinguished Engineer, NVIDIA</p><p class="r2">GPU Compute Architecture Group · Accelerated Compute and Systems for AI</p></div>
+<p class="lab">Previous roles</p>
+<ul><li><b>Meta</b>: Principal Research Scientist, AI System Co-design (Infrastructure)</li><li><b>Intel Labs</b>: Research Scientist, Parallel Computing Lab</li><li><b>GE Global Research</b>: Scientist, Computing and Decision Sciences Lab</li></ul>
+<p class="lab">Education and contact</p>
+<ul><li><b>TU München (TUM)</b>: M.Sc. (Hons) Computational Science and Engineering</li><li><b>SJCE, Mysore</b>: B.E. Mechanical Engineering</li></ul>
+<p class="contact">Contact: <b>dheevatsa at mytum dot de</b></p>
+</div>
+<div class="pv"><div class="photo"><img src="photo.jpg" alt="Photo by Dheevatsa Mudigere" onerror="this.remove()"></div></div>
+</div></section>
+
+<main><div class="in">
+<div class="lw">
+<div class="lp">
+<div class="lph"><span class="t">Latest</span><span class="u">Posts, talks, writing and mentions</span></div>
+<div id="feed"></div>
+<div class="lpf"><span>More activity</span><span><a href="https://www.linkedin.com/in/dheevatsa/recent-activity/all/">LinkedIn ↗</a> · <a href="https://x.com/dheevatsa">X ↗</a> · <a href="https://developer.nvidia.com/blog/author/dmudigere/">NVIDIA blog ↗</a></span></div>
+</div>
+<aside class="cit">
+<div class="chd"><span>Citations per year</span><a href="https://scholar.google.com/citations?user=p2R-FRoAAAAJ">Scholar ↗</a></div>
+<div class="cb" id="cbars"></div>
+<div class="cax" id="cax"></div>
+<p class="cs" id="csum"></p>
+</aside>
+</div>
+
+<div class="ph"><h2>Publications, preprints and blogs</h2><span class="cnt" id="cnt"></span><button class="btn" id="xall" type="button"></button><span style="flex:1"></span><input class="q" id="q" type="search" placeholder="Filter by topic, venue, year" aria-label="Filter publications"><span class="seg" id="pseg"></span></div>
+<div id="pubs"></div>
+
+<section class="off">
+<div class="offh"><h2>Off duty</h2><p class="lead">A few other things that make me tick: gadgets, travelling and driving.</p></div>
+<div class="offl">
+<a href="https://www.flickr.com/photos/dheevatsa/"><b>Flickr ↗</b><span>Photos, mostly from the road</span></a>
+<a href="http://www.yezdi.com/roadking-d.htm"><b>Roadking ↗</b><span>Guinea pig for misadventures with my aspiring mechanic(al) skills</span></a>
+<a href="https://www.amazingpaperairplanes.com/"><b>Fold and fly ↗</b><span>Paper airplanes, properly engineered</span></a>
+<a href="https://knowyourmeme.com/"><b>Know Your Meme ↗</b><span>If you have a lot of time to kill</span></a>
+<a class="gone" href="https://web.archive.org/web/2014/http://bash.org/?top"><b>bash.org</b><em>offline</em><span>Top quotes from the IRC era</span></a>
+<a class="gone" href="https://web.archive.org/web/2014/http://www.qdb.us/"><b>QDB</b><em>offline</em><span>The other quote database</span></a>
+<p class="quip">Both now offline, links go to the archive. If you remember them, we're probably the same vintage.</p>
+</div>
+</section>
+<footer><span>© Dheevatsa Mudigere</span><span id="upd"></span></footer>
+</div></main>
+
+<script src="data.js"></script>
+<script src="citations.js"></script>
+<script>
+(function(){
+var ME="Dheevatsa Mudigere",root=document.documentElement,P=window.PUBLICATIONS||[],L=window.LATEST||[],C=window.CITATIONS;
+var S={au:"concise",pt:"all",q:"",op:{}};
+try{S.au=localStorage.getItem("au")||"concise"}catch(e){}
+var MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;")}
+function fd(d){var p=d.split("-");return MON[+p[1]-1]+" "+p[0]}
+function ini(n){n=n.replace(/\*$/,"");var t=n.trim().split(/\s+/);if(t.length<2||t[t.length-1].length<=2)return n;return t.slice(0,-1).map(function(x){return x.split("-").map(function(p){return p[0]+"."}).join("-")}).join(" ")+" "+t[t.length-1]}
+function authors(a){
+ if(!a)return"";if(a.indexOf(",")<0&&a.indexOf(ME)<0)return esc(a);
+ var tail="",s=a.replace(/\s*\((alphabetical|\* equal contribution)\)\s*$/,function(m){tail=m;return""});
+ var p=s.split(/,\s*/).filter(Boolean),etal=p[p.length-1]==="et al.";if(etal)p.pop();
+ if(S.au==="concise"){var i=-1;p.forEach(function(x,k){if(i<0&&x.indexOf(ME)>=0)i=k});var o=p;
+  if(p.length>7){o=p.slice(0,4);if(i>=4)o.push("…",p[i]);o.push("et al.")}else if(etal)o=p.concat(["et al."]);
+  return o.map(function(x){return x==="…"||x==="et al."?x:(x.indexOf(ME)>=0?"<u>D. Mudigere</u>":esc(ini(x)))}).join(", ")}
+ return p.concat(etal?["et al."]:[]).map(function(x){return x.indexOf(ME)>=0?"<u>"+esc(x)+"</u>":esc(x)}).join(", ")+esc(tail)}
+function item(e){var kb=e[4]==="blog"?'<span class="bd">Blog</span>':e[4]==="talk"?'<span class="bd">Talk</span>':"";
+ var links=(e[5]||[]).map(function(l){return '<a href="'+esc(l[1])+'">'+esc(l[0])+"</a>"}).join("");
+ return '<li><div class="ti">'+esc(e[1])+kb+"</div>"+(e[2]?'<div class="au">'+authors(e[2])+"</div>":"")+'<div class="ve"><span>'+esc(e[3])+"</span>"+links+"</div></li>"}
+function feed(){document.getElementById("feed").innerHTML=L.slice(0,3).map(function(x){return '<a class="row" href="'+esc(x[3])+'"><span class="rd">'+fd(x[0])+'</span><span><span class="rt">'+esc(x[1])+'</span><span class="rx">'+esc(x[2])+'</span></span><span class="ra">↗</span></a>'}).join("")}
+function cites(){if(!C)return;var Y=C.years.slice(-8),mx=Math.max.apply(null,Y.map(function(y){return y[1]})),cy=new Date().getFullYear();
+ document.getElementById("cbars").innerHTML=Y.map(function(y){var ytd=y[0]===cy;return '<i class="'+(ytd?"ytd":"")+'" style="height:'+Math.round(y[1]/mx*100)+'%" data-v="'+y[0]+": "+y[1].toLocaleString()+(ytd?" (YTD)":"")+'" title="'+y[0]+": "+y[1]+'"></i>'}).join("");
+ document.getElementById("cax").innerHTML=Y.map(function(y){return "<span>'"+String(y[0]).slice(2)+"</span>"}).join("");
+ document.getElementById("csum").textContent="Google Scholar · "+(C.total/1000).toFixed(1)+"k citations · h-index "+C.h_index+" · i10-index "+C.i10_index;
+ document.getElementById("upd").textContent="Updated "+C.updated}
+function pubs(){
+ var q=S.q.toLowerCase(),F=P.filter(function(e){return(S.pt==="all"||e[4]===S.pt)&&(!q||(e.slice(0,4).join(" ")+" "+(e[6]||"")).toLowerCase().indexOf(q)>=0)});
+ document.getElementById("cnt").textContent=F.length+" items";
+ var allY=[],ys=[];P.forEach(function(e){if(allY.indexOf(e[0])<0)allY.push(e[0])});F.forEach(function(e){if(ys.indexOf(e[0])<0)ys.push(e[0])});
+ function open(y){return q?true:(S.op[y]!==undefined?S.op[y]:allY.indexOf(y)<2)}
+ document.getElementById("pubs").innerHTML=ys.map(function(y){var n=F.filter(function(e){return e[0]===y}),o=open(y);
+  return '<div class="yr'+(o?"":" shut")+'"><button class="yl" type="button" data-y="'+y+'" aria-expanded="'+o+'"><span class="car">'+(o?"▾":"▸")+"</span>"+y+'<span class="yn">'+n.length+"</span></button>"+(o?"<ul>"+n.map(item).join("")+"</ul>":'<p class="yc">'+esc(n.slice(0,3).map(function(e){return e[1].split(/[:;]/)[0]}).join(" · "))+(n.length>3?" …":"")+"</p>")+"</div>"}).join("")||'<p style="color:var(--ink3)">No matches.</p>';
+ Array.prototype.forEach.call(document.querySelectorAll("#pubs button.yl"),function(b){b.onclick=function(){var y=+b.dataset.y;S.op[y]=!open(y);pubs()}});
+ var allOpen=allY.every(open),xb=document.getElementById("xall");xb.textContent=allOpen?"Collapse older":"Expand all";xb.style.display=q?"none":"";
+ xb.onclick=function(){S.op={};if(!allOpen)allY.forEach(function(y){S.op[y]=true});pubs()};
+ var seg=document.getElementById("pseg");seg.innerHTML=[["all","All"],["paper","Papers"],["blog","Blogs"],["talk","Talks"]].map(function(o){return '<button type="button" data-v="'+o[0]+'" class="'+(S.pt===o[0]?"on":"")+'">'+o[1]+"</button>"}).join("");
+ Array.prototype.forEach.call(seg.querySelectorAll("button"),function(b){b.onclick=function(){S.pt=b.dataset.v;pubs()}});
+ document.getElementById("aub").textContent="Authors: "+(S.au==="concise"?"Concise":"Full")}
+document.getElementById("aub").onclick=function(){S.au=S.au==="concise"?"full":"concise";try{localStorage.setItem("au",S.au)}catch(e){}pubs()};
+document.getElementById("mdb").onclick=function(){var m=root.dataset.mode==="dark"?"light":"dark";root.dataset.mode=m;try{localStorage.setItem("mode",m)}catch(e){}};
+document.getElementById("q").oninput=function(e){S.q=e.target.value;pubs()};
+feed();cites();pubs();
+})();
+</script>
+</body>
+</html>
