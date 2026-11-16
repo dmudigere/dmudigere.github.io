@@ -1,8 +1,8 @@
 // Auto-updated weekly by .github/workflows/citations.yml. Safe to edit by hand.
 window.CITATIONS = {
- "updated": "2026-11-09",
+ "updated": "2026-11-16",
  "source": "Google Scholar via SerpApi",
- "total": 12524,
+ "total": 12579,
  "h_index": 35,
  "i10_index": 59,
  "years": [
@@ -24,7 +24,7 @@ window.CITATIONS = {
   ],
   [
    2017,
-   192
+   193
   ],
   [
    2018,
@@ -32,11 +32,11 @@ window.CITATIONS = {
   ],
   [
    2019,
-   640
+   641
   ],
   [
    2020,
-   936
+   934
   ],
   [
    2021,
@@ -44,23 +44,23 @@ window.CITATIONS = {
   ],
   [
    2022,
-   1423
+   1425
   ],
   [
    2023,
-   1619
+   1617
   ],
   [
    2024,
-   1773
+   1774
   ],
   [
    2025,
-   1990
+   1989
   ],
   [
    2026,
-   1949
+   2004
   ]
  ]
 };
